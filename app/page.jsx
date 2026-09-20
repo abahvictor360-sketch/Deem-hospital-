@@ -116,8 +116,8 @@ export default function HomePage() {
 
       {/* Services */}
       <section className="shell mt-24">
-        <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
-          <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] lg:aspect-[4/4.2]">
+        <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-stretch">
+          <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] lg:aspect-auto lg:h-full lg:min-h-[26rem]">
             <Image src="/images/hero-doctor.jpg" alt="Consultant at Deem Hospital" fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-ink-900/75 to-transparent" />
             <div className="absolute inset-x-5 bottom-5 text-white">
