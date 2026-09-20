@@ -79,7 +79,7 @@ export default function HomePage() {
                     title={d.name}
                     className="relative size-11 overflow-hidden rounded-full ring-2 ring-[var(--surface)] transition hover:z-10 hover:scale-110"
                   >
-                    <Image src={d.image} alt={d.name} fill sizes="44px" className="object-cover" />
+                    <Image src={d.image} alt={d.name} fill sizes="44px" className="object-cover object-top" />
                   </Link>
                 ))}
               </div>

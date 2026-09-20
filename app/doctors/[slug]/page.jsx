@@ -39,7 +39,7 @@ export default async function DoctorPage({ params }) {
 
         <div className="mt-8 grid gap-10 lg:grid-cols-[0.75fr_1fr] lg:items-start">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[1.75rem] rise">
-            <Image src={doctor.image} alt={doctor.name} fill priority sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover" />
+            <Image src={doctor.image} alt={doctor.name} fill priority sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover object-top" />
           </div>
 
           <div className="rise" style={{ animationDelay: "120ms" }}>

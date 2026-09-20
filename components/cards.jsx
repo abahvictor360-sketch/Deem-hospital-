@@ -47,7 +47,7 @@ export function DoctorCard({ doctor }) {
           alt={doctor.name}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover transition duration-500 group-hover:scale-105"
+          className="object-cover object-top transition duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-x-3 bottom-3 rounded-2xl bg-white/85 p-4 backdrop-blur-md dark:bg-ink-900/80">
           <h3 className="font-display text-base font-semibold text-ink-900 dark:text-white">{doctor.name}</h3>

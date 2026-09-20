@@ -27,7 +27,7 @@ export default function Hero() {
             <div className="flex -space-x-3">
               {doctors.slice(0, 3).map((d) => (
                 <span key={d.slug} className="relative size-11 overflow-hidden rounded-full ring-2 ring-[var(--page)]">
-                  <Image src={d.image} alt="" fill sizes="44px" className="object-cover" />
+                  <Image src={d.image} alt="" fill sizes="44px" className="object-cover object-top" />
                 </span>
               ))}
             </div>
@@ -108,7 +108,7 @@ export default function Hero() {
             </p>
             <div className="mt-3 flex items-center gap-2 border-t border-[var(--line)] pt-3">
               <span className="relative size-8 overflow-hidden rounded-full">
-                <Image src="/images/doctor-portrait.jpg" alt="" fill sizes="32px" className="object-cover" />
+                <Image src="/images/doctor-portrait.jpg" alt="" fill sizes="32px" className="object-cover object-top" />
               </span>
               <div>
                 <p className="text-[11px] font-semibold">Dr. Adaeze Okonkwo</p>
