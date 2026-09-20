@@ -66,7 +66,7 @@ export default function Hero() {
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover object-[50%_22%]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-ink-900/45 via-transparent to-transparent" />
 
@@ -82,7 +82,7 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="absolute bottom-20 left-2 w-52 rounded-2xl border border-[var(--line)] surface p-3 shadow-xl float-soft sm:bottom-auto sm:left-auto sm:top-8 sm:w-56 sm:-translate-x-6">
+          <div className="absolute bottom-28 left-2 w-52 rounded-2xl border border-[var(--line)] surface p-3 shadow-xl float-soft sm:left-0 sm:w-56 sm:-translate-x-6">
             <div className="flex items-center gap-3">
               <span className="relative size-10 shrink-0 overflow-hidden rounded-xl">
                 <Image src="/images/heart-stethoscope.jpg" alt="" fill sizes="40px" className="object-cover" />
